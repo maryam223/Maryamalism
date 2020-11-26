@@ -1,0 +1,50 @@
+body
+{
+	background: url(img/fond.png);
+	
+}
+
+@font-face
+{
+	font-family: justanotherhand;
+	src:url('polices/justanotherhand.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1
+{
+	font-family: 'justanotherhand';
+	font-size: 6em;
+	opacity: 0.6;
+}
+
+
+
+#bouton_accueil a{
+	background: #fdff8a;
+	color: black;
+	font-family: Calibri;
+	font-size: 3em; 
+	text-decoration: none;
+	font-weight: bold;
+	opacity: 0.75;
+	padding: 20px 15px 20px 15px;
+	border-radius: 35px;
+	box-shadow: 6px 6px 10px black;
+	position: absolute;
+	left: 35%;
+	
+
+}
+
+#bouton_accueil:hover{
+	transition-duration: 300ms;
+	transform: scale(1.1);
+}
+
+#bouton_accueil a:hover{
+	transition-duration: 400ms;
+	background: #ffff4d;
+	color: white;
+}
